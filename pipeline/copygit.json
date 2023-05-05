@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "copygit",
+				"name": "Copy data1",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -20,10 +20,6 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true,
-							"wildcardFolderPath": {
-								"value": "@pipeline().parameters.filename",
-								"type": "Expression"
-							},
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
@@ -65,11 +61,6 @@
 				]
 			}
 		],
-		"parameters": {
-			"filename": {
-				"type": "string"
-			}
-		},
 		"annotations": []
 	}
 }
