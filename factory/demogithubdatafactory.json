@@ -1,0 +1,9 @@
+{
+	"name": "demogithubdatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a1f005dc-48ee-49df-8393-5461c8e70ed2",
+		"tenantId": "b19e9fad-e6e0-45bd-b78c-f4b4cea03601"
+	}
+}
